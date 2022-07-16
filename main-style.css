@@ -47,6 +47,7 @@
  @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
  /*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100');*/
  @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+ @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script&family=Edu+QLD+Beginner&family=PT+Sans&family=Roboto&display=swap');
  
  
  /*** 
@@ -460,6 +461,7 @@
  .section-title h2 {
 	 text-transform: uppercase;
 	 font-size: 40px;
+	 font-family: 'Edu QLD Beginner', cursive;
  }
  .section-title-icon {
 	 display: block;
@@ -642,6 +644,12 @@
 	 position:relative;
 	 background:none;
  }
+ .main-slider .tp-banner img {
+	height: 20vh;
+	width: 10% !important;
+	filter: brightness(75%) saturate(140%) !important; 
+	opacity: 0.8;
+ }
  .main-slider.style_2 {
 	 position:relative;
 	 top: -60px;
@@ -718,7 +726,7 @@
 	 color: #fff;
  }
  
- .main-slider .tp-banner .slotholder:after {
+ .main-slider .rbanner .slotholder:after {
 	 background: rgba(0, 0, 0, 0.49);
 	 content: "";
 	 height: 100%;
@@ -906,6 +914,8 @@
  }
  .header-style-two .main-menu .navigation > li > a {
 	 color: #FFF;
+	 font-family: 'Barlow', sans-serif;
+	 font-size: 1em;
  }
   .header-style-two .main-menu .navigation > li.current-menu-item > a {
 	  color: #ee1d1d;
@@ -957,6 +967,7 @@
  
  .main-menu .navbar-collapse{
 	 padding:0px;	
+	 text-align: center;
  }
  
  .main-menu .navigation{
@@ -998,6 +1009,8 @@
  .main-menu .navigation > li.current > a,
  .main-menu .navigation > li.current-menu-item > a{
 	 color:#fb0000;
+	 font-family: 'Barlow', sans-serif;
+	 font-size: 1.5em;
 	 opacity:1;
  }
  
@@ -1217,8 +1230,9 @@
  }
  .main-menu .navigation > li > a.theme-btn {
 	 padding: 7px 25px;
-	 margin-top: 25px;
+	 margin: 20px 0px;
 	 font-size: 14px;
+	 text-align: center;
 	 background:#fb0000;
  }
  .main-menu .navigation > li > a.theme-btn:hover {
@@ -1231,7 +1245,8 @@
 	 background: none;
  }
  .header-style-two .header-mainbox.style_3  {
-	 border-bottom: 1px solid rgba(255,255,255,0.10);
+	background: #500028;
+	border-bottom: 1px solid rgba(255,255,255,0.10);
  }
  .header-mainbox.style_3  {
 	 border-bottom: 1px solid rgba(255,255,255,0.10);
@@ -1296,6 +1311,10 @@
 	 -o-transform: translateY(-50%);
 	 -ms-transform: translateY(-50%);
 	 transform: translateY(-50%);
+ }
+
+ .link-btn {
+	font-family: 'Barlow', sans-serif;
  }
  
  .link-btn .theme-btn{
@@ -1479,6 +1498,7 @@
  }
  .experience-divider h2 {
 	 font-size: 24px;
+	 font-family: 'Edu QLD Beginner', cursive;
  }
  
  
@@ -1741,6 +1761,7 @@
 	 padding: 40px 30px 35px 105px;
 	 position: relative;
 	 margin-bottom: 30px;
+	 font-family: 'Barlow', sans-serif;
 	 background: #fff;
 	 -webkit-transition: all 0.3s;
 	 -moz-transition: all 0.3s;
@@ -1758,7 +1779,8 @@
  .services-block h5 a {
 	 font-size: 22px;
 	 color: #222222;
-	 font-weight: 500;
+	 font-family: 'Edu QLD Beginner', cursive;
+	 font-weight: bolder;
 	 display: block;
 	 margin-bottom: 13px;
 	 text-transform: uppercase;
@@ -1795,7 +1817,7 @@
  }
 
  .services-block img {
-	border-radius: 50%; 
+	border-radius: 20px; 
 	width: 17vw; 
 	height: 10vw; 
 	margin-bottom: 20px; 
