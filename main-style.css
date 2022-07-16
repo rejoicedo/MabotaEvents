@@ -643,13 +643,30 @@
  .main-slider {
 	 position:relative;
 	 background:none;
- }
+ 	}
+
+
+
  .main-slider .tp-banner img {
 	height: 20vh;
 	width: 10% !important;
 	filter: brightness(75%) saturate(140%) !important; 
 	opacity: 0.8;
  }
+
+ .main-slider .tp-caption {
+	 margin-top: 13em !important;
+ }
+
+ @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.main-slider .tp-caption {
+		margin-top: 17em !important;
+	}
+}
+
  .main-slider.style_2 {
 	 position:relative;
 	 top: -60px;
@@ -663,19 +680,33 @@
  
  
  .main-slider h1 {
-	 font-family: 'Poppins', sans-serif;
-	 font-size: 60 px;
-	 font-size: 4rem;
-	 margin: 0 0 0.3em;
-	   font-weight: 600;
-	   line-height: 1.2em;
-	   color: #fff;
+	font-family: 'Edu QLD Beginner', cursive !important;
+	font-size: 4em !important;
+	margin: none;
+	padding: none;
+	font-weight: 600 !important;
+	line-height: 1.2em !important;
+	color:#fb0000;
  }
- 
+
+ @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+ .main-slider h1 {
+	 font-family: 'Poppins', sans-serif;
+	 font-size: 4em !important;
+	 font-weight: bolder !important;
+	 padding-top: .2em;
+	color:#fb0000;
+ }
+}
+
  .main-slider h2 {
 	 font-family: 'Poppins', sans-serif;
-	 line-height:1.4em;
-	 font-size:48px;
+	 line-height:1.4em !important;
+	 font-size: 3em !important;
+	 color: #fff;
  }
  
  .main-slider h3 {
@@ -699,10 +730,7 @@
 	 font-size:24px;
 	 font-weight: 600;
  }
- 
- .main-slider span {
-	 color:#fb0000;
- }
+
  .big-title h1 {
 	 font-size: 60px;
  }
@@ -1314,16 +1342,35 @@
  }
 
  .link-btn {
+	padding-top: 2em !important;
 	font-family: 'Barlow', sans-serif;
  }
  
  .link-btn .theme-btn{
 	 color: white;
  }
+
+ @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.link-btn {
+		padding-top: 2em !important;
+		font-family: 'Barlow', sans-serif;
+		font-size: .6em !important;
+	 }
+
+	.link-btn .theme-btn {
+		padding: 10px 20px !important;
+		font-size: 3em !important;
+	}
+}
  
  .theme-btn:hover,.theme-second-btn:hover {
-	 background-color: #c50073;
-	 color: #fff;
+	 background-color: #fff;
+	 border: 2px solid #fb0000 !important;
+	 color:#fb0000 !important;
+	 font-weight: bolder;
 	 transition:all 500ms ease;
 	 -moz-transition:all 500ms ease;
 	 -webkit-transition:all 500ms ease;
