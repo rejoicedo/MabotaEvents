@@ -701,20 +701,27 @@
  @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
+  and (max-width: 600px)
   and (-webkit-min-device-pixel-ratio: 3) { 
  .main-slider h1 {
 	 font-family: 'Poppins', sans-serif;
-	 font-size: 4em !important;
+	 font-size: 7em !important;
 	 font-weight: bolder !important;
 	 padding-top: .2em;
 	color:#fb0000;
  }
 }
 
+@media screen and (max-width: 600px) {
+	body {
+	  background-color: olive;
+	}
+  }
+
  .main-slider h2 {
 	 font-family: 'Poppins', sans-serif;
 	 line-height:1.4em !important;
-	 font-size: 3em !important;
+	 font-size: 4em !important;
 	 color: #fff;
  }
  
@@ -1948,8 +1955,17 @@
 	 position: absolute;
 	 left: -10%;
 	 top: 25%;
- 
  }
+
+ .welcome .section-content {
+	background: url(images/0mabo/1.jpeg); 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover; 
+	background-position: center;
+	object-fit: cover;
+ }
+
  .fact-section .title-inner .text {
 	 position: relative;
 	 font-size: 24px;
@@ -2192,6 +2208,7 @@
 	 background-attachment: fixed;
 	 background-repeat: no-repeat;
 	 font-family: 'Hachi Maru Pop', cursive;
+	 height: 80vh;
  }
  .theme-second-color {
 	 color: #500028;
@@ -3340,8 +3357,7 @@
  
  /*Haf Divider*/
  .opsition {
-	 background: url(images/3.png);
-	 /*overflow: hidden;*/
+	 background: url(images/21.jpg);
 	 position: relative;
 	 display: block;
 	 min-height: 450px;
@@ -4881,6 +4897,7 @@
  
  ***/
  .inner-title h2 {
+	 padding-top: 5em;
 	 color: #fff;
 	 font-family: 'Hachi Maru Pop', cursive;
 	 letter-spacing: 4px;
