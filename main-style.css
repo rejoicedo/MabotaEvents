@@ -703,18 +703,18 @@
   and (max-device-width: 812px) 
   and (max-width: 600px)
   and (-webkit-min-device-pixel-ratio: 3) { 
- .main-slider h1 {
-	 font-family: 'Poppins', sans-serif;
-	 font-size: 7em !important;
-	 font-weight: bolder !important;
-	 padding-top: .2em;
-	color:#fb0000;
- }
+	.main-slider h1 {
+		font-family: 'Poppins', sans-serif;
+		font-size: 7em !important;
+		font-weight: bolder !important;
+		padding-top: .2em;
+		color:#fb0000;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	body {
-	  background-color: olive;
+	  background-color: #ffffff;
 	}
   }
 
@@ -1882,19 +1882,38 @@
  .services-block img {
 	border-radius: 20px; 
 	width: 17vw; 
-	height: 10vw; 
+	height: 5vw; 
 	margin-bottom: 20px; 
 	margin-top: -30px;
  }
 
 @media only screen and (max-width: 738px) {
+	.services-block .inner-box {
+		border-radius: 5%;
+		border: none;
+		position: relative !important;
+		margin-bottom: none !important;
+		background: rgba(0, 0, 0, 0.85);;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		-ms-transition: all 0.3s;
+		transition: all 0.5s;
+	}
+
+	.services-block .icon-box {
+		position: absolute ;
+		left: 5px !important;
+		top: 500px !important;
+	}
+
 	.services-block img {
-		border-radius: 10%; 
+		border-radius: 10px; 
 		width: 100%; 
 		object-fit: cover;
-		height: 50vh; 
+		height: 40vh; 
 		margin-bottom: 20px; 
-		margin-top: -30px;
+		text-align: center;
 		}
 }
 
@@ -1958,7 +1977,7 @@
  }
 
  .welcome .section-content {
-	background: url(images/0mabo/1.jpeg); 
+	background: url(images/21.jpg); 
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 
 	background-size: cover; 
