@@ -536,7 +536,7 @@
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		color:#FCD41B !important;
+		color:#fb0000 !important;
 	}
 	
 	.main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
