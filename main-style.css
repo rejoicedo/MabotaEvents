@@ -1864,12 +1864,12 @@
  }*/
  .services-block-logo img {
 	 position: absolute;
+	 object-fit: cover;
 	 left: 0;
 	 right: 0;
 	 z-index: 1;
 	 text-align: center;
 	 display: block;
-	 vertical-align: middle;
 	 top: 44%;
 	 margin: auto;
 	 background: #f70000;
@@ -1882,9 +1882,10 @@
 
  .services-block img {
 	border-radius: 20px; 
-	width: 17vw; 
-	height: 5vw; 
-	margin-bottom: 20px; 
+	object-fit: cover;
+	width: 19vw; 
+	height: 23vh; 
+	margin-bottom: 20px;
 	margin-top: -30px;
  }
 
